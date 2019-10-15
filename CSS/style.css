@@ -1,0 +1,198 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #2f0616;
+	cursor: url(../images/ghost2.png), auto;
+}
+
+.frame{
+	background-color: white;
+	margin: auto;
+	margin-top: 30px;
+	padding-top: 19px;
+	width: 90%;
+	height: 3000px;
+	border: 5px solid #5f1632;
+	border-radius: 5px;
+	background-image: url(../images/pumpkin2.gif);
+	background-repeat: round;
+
+}
+.container{
+	background-color: #150128;
+	margin: auto;
+	margin-top: -16px;
+	width: 95%;
+	height: 3000px;
+}
+
+
+header{
+	background-color: red;
+	background-image: url(../images/h2.jpg);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 14%;
+}
+
+ul {
+  background-image: url(../images/nav.gif);
+  background-repeat: repeat-x;
+  background-size: 200px;
+  background-position: right center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fe9900;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  background-color:#fe9900;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #150128;
+  color: #fff;
+}
+
+.a ul{
+	list-style-type: circle;
+}
+
+.post{
+	background-color: white;
+	margin: auto;
+	margin-top: 10px;
+	width: 45%;
+	height: 80%;
+	border: 6px solid #ffc2c2;
+	border-radius: 5px;
+}
+
+.post img{
+	position: relative;
+	top: 10px;
+	left: 6px;
+	width: 95%;
+	height: auto;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.post h1{
+	float: left;
+	padding-left: 10px;
+}
+
+.rate2 {
+    float: left;
+    height: 40px;
+    margin-top: -20px;
+    padding: 0 10px;
+}
+.rate2:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate2:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate2:not(:checked) > label:before {
+    content: '★ ';
+    cursor: url(../images/giphy5.gif), auto;
+}
+.rate2 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate2:not(:checked) > label:hover,
+.rate2:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate2 > input:checked + label:hover,
+.rate2 > input:checked + label:hover ~ label,
+.rate2 > input:checked ~ label:hover,
+.rate2 > input:checked ~ label:hover ~ label,
+.rate2 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.rate3 {		
+    float: left;
+    height: 10px;
+    margin-top: 30px;
+    margin-left: -200px;
+    padding: 30px;
+    padding-right: 80px
+    
+    
+}
+.rate3:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate3:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate3:not(:checked) > label:before {
+    content: '★ ';
+    cursor: url(../images/giphy5.gif), auto;
+}
+.rate3 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate3:not(:checked) > label:hover,
+.rate3:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate3 > input:checked + label:hover,
+.rate3 > input:checked + label:hover ~ label,
+.rate3 > input:checked ~ label:hover,
+.rate3 > input:checked ~ label:hover ~ label,
+.rate3 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+h2{
+	float: left;
+	padding-left: 10px;
+}
+
+p{
+	float: left;
+	margin-top: 10px;
+	padding: 0 10px;
+	font-size: 95%;
+}
